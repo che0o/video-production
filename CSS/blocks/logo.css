@@ -1,0 +1,11 @@
+.logo {
+    display: flex; 
+}
+
+.logo__indent--header {
+    margin-right: 241px;
+}
+
+.logo__indent--footer {
+    margin-right: 130px;
+}

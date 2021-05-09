@@ -1,0 +1,31 @@
+.button {
+    width: 195px;
+    height: 55px;
+    background: #FF3D00;
+    border-radius: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button__hello {
+    margin-left: 475px;
+}
+
+.button--light {
+    background: #FFFFFF;
+    color: #FF5500;
+    border: 1px solid #FF5500;
+}
+
+.btn-wrapper {
+    margin-left: 1px;
+}
+
+.button_about {
+    width: 168px;
+    height: 55px;
+}
