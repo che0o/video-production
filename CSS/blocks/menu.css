@@ -1,0 +1,36 @@
+.menu {
+    display: flex;
+    padding-top: 13px;
+}
+
+.menu__footer {
+    display: flex;
+    padding-top: 4px;
+}
+
+.menu__list {
+    left: 440px;
+    top: 17px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 51px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.menu__link:hover {
+    color: #FF3D00;
+}
+
+
