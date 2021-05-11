@@ -2,12 +2,12 @@
     background: #E5E5E5;
     color: #1A1B1E;
     min-height: 537px;
+    padding-top: 85px;
 }
 
 .inner-section--title {
     font-weight: bold;
     font-size: 48px;
-    margin-top: 86px;
     margin-bottom: 58px;
 }
 
@@ -31,4 +31,9 @@
     height: 120px;
     align-items: center;
     justify-content: center;
+    filter: grayscale(1);
+}
+
+.partners__link:hover {
+    filter: grayscale(0);
 }
