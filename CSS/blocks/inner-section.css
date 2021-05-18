@@ -1,14 +1,30 @@
 .inner-section {
-    background: #E5E5E5;
+    background: #F4F5F5;
     color: #1A1B1E;
     min-height: 537px;
     padding-top: 85px;
+}
+
+.inner-section--form {
+    padding-top: 80px;
+}
+
+.inner-section--bg--grey {
+    background: #E5E5E5;
 }
 
 .inner-section--title {
     font-weight: bold;
     font-size: 48px;
     margin-bottom: 58px;
+}
+
+.inner-section--title--form {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
 }
 
 .partners {

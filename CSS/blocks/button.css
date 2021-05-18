@@ -1,7 +1,7 @@
 .button {
     width: 195px;
     height: 55px;
-    background: #FF3D00;
+    background: #FF5500;
     border-radius: 35px;
     font-style: normal;
     font-weight: bold;
@@ -9,6 +9,11 @@
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.button:hover {
+    background: #FF3D00;
+    transition: .3s;
 }
 
 .button__hello {
@@ -21,6 +26,12 @@
     border: 1px solid #FF5500;
 }
 
+.button--light:hover {
+    background: #FF5500;
+    color: #FFFFFF;
+    transition: .3s;
+}
+
 .btn-wrapper {
     margin-left: 1px;
 }
@@ -28,4 +39,33 @@
 .button_about {
     width: 168px;
     height: 55px;
+}
+
+.button--bg--grey {
+    background: #8E8E8E;
+}
+
+.button--bg--grey:hover {
+    background: #2B2B2B;
+    transition: .5s;
+}
+
+.form__bnt {
+    margin-right: 13px;
+    width: 168px;
+}
+
+.form__bnt:last-child {
+    margin-right: 0;
+}
+
+.button__welcom {
+    background: #FF5500;
+    width: 169px;
+    z-index: 5;
+}
+.button__welcom:hover {
+    cursor: pointer;
+    background: #FF3D00;
+    z-index: 5;
 }

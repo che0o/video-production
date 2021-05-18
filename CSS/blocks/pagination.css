@@ -19,6 +19,7 @@
 
 .pagination__items--active .pagination__number {
     background: #FF5500;
+    color: #ffffff;
     
 }
 
@@ -31,4 +32,10 @@
     text-decoration: none;
     font-weight: bold;
     line-height: 32px;
+}
+
+.pagination__number:hover {
+    background: #FF5500;
+    color: #ffffff;
+    transition: .3s;
 }

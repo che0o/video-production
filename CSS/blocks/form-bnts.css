@@ -1,0 +1,5 @@
+.form__bnts {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 96px;
+}
